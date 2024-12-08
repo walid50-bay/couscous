@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moroccan Couscous Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-image: url('header-image.jpg');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            color: white;
+            padding: 50px 20px;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        header a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #ff8800;
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .features, .menu, .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .features div, .menu div {
+            flex: 1;
+            min-width: 250px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+        footer a {
+            color: #ff8800;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Experience Authentic Moroccan Couscous</h1>
+        <p>Homemade with love and fresh ingredients, delivered right to your doorstep.</p>
+        <a href="#order">Order Now</a>
+    </header>
+
+    <section>
+        <h2>Why Choose Us?</h2>
+        <div class="features">
+            <div>
+                <h3>Fresh Ingredients</h3>
+                <p>All dishes are prepared with the freshest and highest quality ingredients.</p>
+            </div>
+            <div>
+                <h3>Authentic Recipes</h3>
+                <p>Experience the rich flavors of traditional Moroccan cuisine.</p>
+            </div>
+            <div>
+                <h3>Secure Packaging</h3>
+                <p>Your meal is carefully packed to ensure freshness and safety during delivery.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Our Menu</h2>
+        <div class="menu">
+            <div>
+                <h3>Couscous with Onions & Raisins</h3>
+                <p>A delightful blend of sweet and savory flavors.</p>
+            </div>
+            <div>
+                <h3>Couscous with Mixed Vegetables</h3>
+                <p>A wholesome dish with carrots, chickpeas, zucchini, and more.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="couscous-dish1.jpg" alt="Couscous with Onions and Raisins">
+            <img src="couscous-dish2.jpg" alt="Couscous with Mixed Vegetables">
+            <img src="packaging.jpg" alt="Secure Packaging">
+        </div>
+    </section>
+
+    <section id="order">
+        <h2>Order Now</h2>
+        <p>Contact us via WhatsApp or call us to place your order!</p>
+        <a href="https://wa.me/your-number" style="background-color: #25D366; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none;">Order on WhatsApp</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Moroccan Couscous. All rights reserved. | <a href="#">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>
